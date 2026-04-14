@@ -273,9 +273,9 @@ text-decoration: none;
 }
 
 .outlinebtn {
-background: transparent;
-color: white;
-border: 2px solid rgba(255,255,255,0.6);
+background: var(--blue);
+color: var(--white);
+border: 2px solid var(--blue);
 padding: 14px 28px;
 border-radius: 4px;
 text-decoration: none;
@@ -323,7 +323,7 @@ color: rgba(255,255,255,0.75);
 font-size: 12px;
 font-weight: 700;
 letter-spacing: 2px;
-color: var(--blue);
+color: var(--white);
 margin-bottom: 10px;
 display: block;
 }
@@ -338,7 +338,7 @@ margin-bottom: 16px;
 
 .sectiontext {
 font-size: 17px;
-color: #555;
+color: #e8a020;
 line-height: 1.7;
 margin-bottom: 40px;
 max-width: 620px;
